@@ -9,7 +9,7 @@ import { app } from "electron"
 const execFileAsync = promisify(execFile)
 const root = dirname(fileURLToPath(import.meta.url))
 const stateHome = process.env.XDG_STATE_HOME
-const desktopStateNames = ["ai.opencode.desktop.dev", "ai.opencode.desktop.beta", "ai.opencode.desktop"]
+const desktopStateNames = ["by.softclub.mitracode.dev", "by.softclub.mitracode.beta", "by.softclub.mitracode"]
 
 type Logger = {
   log(message: string, meta?: Record<string, unknown>): void
